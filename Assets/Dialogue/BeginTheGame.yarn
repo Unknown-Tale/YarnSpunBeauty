@@ -1,0 +1,53 @@
+title: Start
+tags:
+colorID: 0
+position: 0,0
+---
+<<Scene bg_bedroom>>
+
+TEST PLAY
+The following is a test of YarnSpinner and is NOT part of the final product.
+<<wait 1>>
+You enter the bedroom to find a distraught girl, where upon first eye contact, she seems a bit scared from your look.
+<<Act Belle belle-2 center center green>>
+Belle: Who are you...?  WHAT are you...?
+
+-> Tell the Truth to Belle
+	You tell Belle about your situation.
+	It's hard to believe at first, but she understands.
+-> Make a hilarious lie
+	You tell Belle you're a figment of her imagination.
+	She doesn't buy it, but plays along.
+
+Belle: It's a strange set of circumstances, though you're quite hospitable.
+Belle: This room seems to have my every need, all except a fine meal...
+
+-> Invite to dinner
+	You invite her to eat with you tonight.
+	Belle accepts the offer.
+-> DEMAND Invite
+	Because you aren't as social as you thought you were, you command her to join you tonight.
+	Belle is a bit shocked and rather taken aback by this.
+-> Chat Further
+	You decide to chat a bit with Belle about her interests.
+	You notice a similar interest or two, mainly your love of books and music.
+	However, a striking distance disturbs you for a moment as you realize whatever you were making for dinner tonight is about to overcook.
+	Belle: Don't worry, I can help with that. It's the least I can do for your hospitality
+
+<<Fade black 0.0 1.0 1.0>>
+<<wait 2>>
+<<Reset>>
+<<Hide Belle>>
+<<Scene bg_hallway>>
+An hour or so has passed and the night is still young.
+Despite your initial doubts, the meal turned out to be rather successful.
+Could this be the one you love with all your heart and soul?
+-> Trust your gut
+	You think she might be the one, but decide to give it some more time.
+-> Silence gut
+	You punch yourself in the stomach.
+	Luckily no one was around to see that.
+
+<<Fade black 0.0 1.0 2.0>>
+TO BE CONTINUED
+===
