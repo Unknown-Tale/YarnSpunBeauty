@@ -3,50 +3,91 @@ tags:
 colorID: 0
 position: 0,0
 ---
-<<Scene bg_bedroom>>
-
+<<Fade black 0.0 1.0 0.0>>
 TEST PLAY
 The following is a test of YarnSpinner and is NOT part of the final product.
 <<wait 1>>
-You enter the bedroom to find a distraught girl, where upon first eye contact, she seems a bit scared from your look.
-<<Act Belle belle-2 center center green>>
-Belle: Who are you...?  WHAT are you...?
+<<Reset>>
 
--> Tell the Truth to Belle
-	You tell Belle about your situation.
-	It's hard to believe at first, but she understands.
--> Make a hilarious lie
-	You tell Belle you're a figment of her imagination.
-	She doesn't buy it, but plays along.
+<<Scene bg_castle>>
+There once was an ugly beast who lived in a castle far, far away.
+<<Act Beast beast-2 center center red>>
+After being cursed by something evil and vindictive, he transformed from a handsome prince with a shining future to a hideous monster who had almost everything torn away from him.
+The evil left a message: That this beastly curse could only be reverted by a true love's kiss, and that when an enchanted rose withered and died, he would die as well.
+<<Hide Beast>>
+Everyone in his life was aghast by his gnarly appearance, and thus abandoned him. He was stuck between something not quite human, yet not quite animal either.
+If a doctor could stand him long enough to examine him, they wouldn't have been able to come up with a way to explain what he had become.
+<<Scene bg_dining>>
+Even his family, who'd owned all the riches in the world, became deeply afraid of his new form and ran away to a new castle that was closer to the townspeople, taking only what they could with them.
+<<Scene bg_hallway>>
+While the magic that was left in the castle helped to maintain it and keep the Beast alive, the loneliness and the curse ate away at his heart and humanity day by day.
+The Beast periodically checked on the flower the evil had said was linked to his own life, which was wilting more and more every time he checked on it.
+<<Fade black 0.0 1.0 1.0>>
+<<wait 2>>
 
-Belle: It's a strange set of circumstances, though you're quite hospitable.
-Belle: This room seems to have my every need, all except a fine meal...
+One day, an old man wandered into the castle, downtrodden and weathered by wind and rain from a storm outside.
+The castle, who had respected his tenaciousness, fed him and gave him a change of clothes.
+<<Reset>>
+<<Scene bg_garden>>
+The Beast allowed this old man to wander through his castle, until the man had taken a rose from his rose garden.
+The old man, despite being impoverished and left with nothing, begged to be left alive and offered the only thing in his possession- The hand of one of his three daughters.
+The Beast let him go, but on only one condition- that one of his three daughters had to stay at the castle, or he would come find him.
+<<Fade black 0.0 1.0 1.0>>
+<<wait 1>>
+<<Hide Beast>>
+The old man arrives again a month later, with one of his daughters in tow…
+<<wait 3>>
 
--> Invite to dinner
-	You invite her to eat with you tonight.
-	Belle accepts the offer.
--> DEMAND Invite
-	Because you aren't as social as you thought you were, you command her to join you tonight.
-	Belle is a bit shocked and rather taken aback by this.
--> Chat Further
-	You decide to chat a bit with Belle about her interests.
-	You notice a similar interest or two, mainly your love of books and music.
-	However, a striking distance disturbs you for a moment as you realize whatever you were making for dinner tonight is about to overcook.
-	Belle: Don't worry, I can help with that. It's the least I can do for your hospitality
+<<Reset>>
+<<Scene bg_bedroom>>
+<<Act Beast beast-2 left center red>>
+You have wandered the hallways alone with your thoughts 30 days after you met the old man.
+The castle doors have closed once more and you figured he had returned with the daughter he had mentioned.
+Soon enough, you enter the bedroom to find a distraught girl.
+<<Act Belle belle-2 right center green>>
+The girl takes a deep breath in, and then out. It's quiet–probably too quiet for a human to hear well–, but Beast’s large and perceptive ears pick up on her apprehension.
+Beast: I’ll ask you this...
+Beast: It is not because I am upset or have any sort of ill will towards you, I just need to understand.
+You meet her eyes, the tension between you feeling almost tangible. You have the feeling fate brought you two together, for better or worse.
+Beast: Did you truly come here willingly?
+Belle: I did, Beast.
+She shifts uncomfortably for a moment, but then reveals a brave and resolute expression.
+Belle: If it’s either I stay here with you, or have my father doomed to an untimely death… Then I choose you, Beast.
+Beast: I see. Then, I welcome you to the castle. You may visit any room, and choose to sleep in whichever room you prefer. 
+Belle: Thank you.
+She does a curtsey and begins to walk away.
+For a moment, you feel a twinge of guilt, as if you had done something wrong.
+Perhaps this didn’t go as well as you imagined, though the woman’s beauty is certainly up to par with the daydreams you’ve had for years.
+Beast: Ah… Just a moment, miss.
+Beast: May I have your name?
+Belle: It’s Belle.
+Belle: …And yours, sir?
+Beast: My… Nobody has called me naught but Beast in years.
+Belle laughed, though it was stiff. 
+You feel it will take a while to win her over.
+Beast: Dinner will be ready at 7. Be sure to be there if you want to eat.
+-> "I mean, not that you have to come, it's just that we don't have any other food."
+	Beast: I understand if you’re not entirely comfortable with… This, yet, since it’s all so new to you.
+	You fumble with your shirt sleeves.
+	Beast: It’s just, food only ever seems to be ready at mealtime, and I don’t know if I can have it made for you after the fact.
+	Belle chuckled, a bit more genuinely this time.
+	Belle: I’ll be there, then.
+	Belle:  I have an appetite too, you know.
+	Belle walked into the distance, her long commoner’s dress trailing behind her.
+-> "I’d love to get to know you more."
+	Belle stared at you quizzically for only a moment, before returning to her usual calm expression.
+	Belle: Right. I’ll… I’ll try to be there.
+	Her rigid tone hung in the air as she turned around, her long commoner’s dress trailing behind her.
 
 <<Fade black 0.0 1.0 1.0>>
 <<wait 2>>
 <<Reset>>
 <<Hide Belle>>
-<<Scene bg_hallway>>
-An hour or so has passed and the night is still young.
-Despite your initial doubts, the meal turned out to be rather successful.
-Could this be the one you love with all your heart and soul?
--> Trust your gut
-	You think she might be the one, but decide to give it some more time.
--> Silence gut
-	You punch yourself in the stomach.
-	Luckily no one was around to see that.
+<<Hide Beast>>
+<<Scene bg_dining>>
+Every day at 7 PM exactly, just like clockwork, the castle’s magic prepares dinner for any and all people inside of the castle.
+It does not matter whether the Beast gave his consent for the visitors to be there, dinner would be served for both him and them.
+However, it'd been years since it had visitors. The townspeople's rumors tended to keep the local population far away from the castle.
 
 <<Fade black 0.0 1.0 2.0>>
 TO BE CONTINUED

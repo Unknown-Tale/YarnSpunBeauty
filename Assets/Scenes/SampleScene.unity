@@ -315,7 +315,7 @@ PrefabInstance:
       objectReference: {fileID: 7545569452688597077, guid: b7aa5526fd9c16c468735e3c90c3ccd5, type: 3}
     - target: {fileID: 6167349947878513351, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 3}
       propertyPath: loadSprites.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6167349947878513351, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 3}
       propertyPath: loadSprites.Array.data[0]
@@ -337,6 +337,14 @@ PrefabInstance:
       propertyPath: loadSprites.Array.data[4]
       value: 
       objectReference: {fileID: 21300000, guid: e0d1e3c7d3148f74f81ca723a6451ec3, type: 3}
+    - target: {fileID: 6167349947878513351, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 3}
+      propertyPath: loadSprites.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 022314db8978beb419a1f5fd46c9efbc, type: 3}
+    - target: {fileID: 6167349947878513351, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 3}
+      propertyPath: loadSprites.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: d1871aaf8eac5824db7ed18898a4700c, type: 3}
     - target: {fileID: 8095329417957922553, guid: 9e0841b82a4ebcd438730d23886e17e6, type: 3}
       propertyPath: m_fontAsset
       value: 
